@@ -4,7 +4,7 @@ else
 	EXE_EXT :=
 endif
 
-name ?= nodaata_brain
+name ?= $(basename pwd)
 mod_name ?= $(basename pwd)
 
 .PHONY: run
