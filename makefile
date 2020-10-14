@@ -4,8 +4,8 @@ else
 	EXE_EXT :=
 endif
 
-name ?= $(basename pwd)
-mod_name ?= $(basename pwd)
+name ?= $(shell basename `pwd`)
+mod_name ?= $(shell basename `pwd`)
 
 .PHONY: run
 run:
