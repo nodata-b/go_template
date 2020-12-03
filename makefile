@@ -18,4 +18,4 @@ build_win:
 	GOOS=windows GOARCH=amd64 go build -o ${name}.exe ./cmd/main.go
 
 mod:
-	go mod init ${mod_name}
+	go mod init github.com/nodata-brain/${mod_name}
